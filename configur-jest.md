@@ -28,7 +28,7 @@ npm install --save-dev whatwg-fetch
 }
 ```
 
-4. Crear la configuración de babel **babel.config.js**
+4. Crear la configuración de babel **babel.config.cjs**
 
 ```
 module.exports = {
@@ -50,9 +50,19 @@ module.exports = {
 }
 ```
 
-**jest.setup.cjs**
+**jest.setup.js**
 
 ```
 // En caso de necesitar la implementación del FetchAPI
 import 'whatwg-fetch'; // <-- yarn add whatwg-fetch
+```
+
+6. If you add file config **eslint-config.js**
+
+Add the line
+
+```
+env: {
+    jest: true,
+},
 ```
