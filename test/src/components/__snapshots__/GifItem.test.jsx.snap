@@ -17,3 +17,21 @@ exports[`Test of component GifItem Most by math test with the snapshot of compon
   </div>
 </div>
 `;
+
+exports[`Test of component GifItem Must by math test with the snapshot of component GifItem 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="Title of Card"
+      src="https://media1.giphy.com/media/5dY8E6UrHh5kF6nCBj/giphy-downsized-medium.gif?cid=bfd4d686b205aqvpy9f2ix2ukrl83qifv2vsffj0rk4sfvuh&ep=v1_gifs_search&rid=giphy-downsized-medium.gif&ct=g"
+    />
+    <p
+      data-testid="testTitleCard"
+    >
+      Title of Card
+    </p>
+  </div>
+</div>
+`;
